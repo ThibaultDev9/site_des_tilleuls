@@ -263,24 +263,17 @@
                             </div>
                         </div>
                     </form>
-                </div><style>
-  .iframe-container {
-    position: relative;
-    width: 80%;
-    padding-bottom: 62.5%; /* Aspect ratio 800/500 = 1.6 (16:10) */
-    height: 0;
-    overflow: hidden;
-    justify-content: center;
-  }
-
-  .iframe-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 50%;
-    border: 0;
-  }
+                </div>
+<style>
+    .iframe-container {
+      position: relative;
+      width: 80%;
+      max-width: 800px; /* Limite maximale de la largeur */
+      height: 0;
+      padding-bottom: 50%; /* Ratio 2:1 pour la hauteur (50% de la largeur) */
+      overflow: hidden;
+    }
+                    
 </style>
 
 <div class="iframe-container">
